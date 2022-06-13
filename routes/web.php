@@ -73,5 +73,5 @@ Route::group(['middleware' => ['auth','verified']], function () {
         Route::put('assign-user/{user}', [AssignUserToRoleController::class, 'update'])->name('assign.user.update');
     });
 });
-Route::resource('barang', BarangController::class);
+
 

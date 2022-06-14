@@ -19,7 +19,7 @@
 
   <nav class="flex items-center justify-between flex-wrap bg-blue-200 p-7 px-20">
     <div class="flex items-center flex-shrink-0 text-black mr-6">
-      <img src="{{ asset('img/logo.svg')}}" alt=""
+      <img src="{{ asset('img/logo.png')}}" alt=""
         class="transform transition hover:scale-125 duration-300 ease-in-out" />
       <span class="font-bold tracking-wider text-xl">
         &nbsp E-PENGKAT</span>
@@ -77,7 +77,7 @@
       <!--Right Col-->
       <div class="w-full md:w-3/5 text-center">
         <img class="object-fill mx-36 transform transition hover:scale-110 duration-300 ease-in-out"
-          src="{{ asset('img/hero.svg')}}" />
+          src="{{ asset('img/hero.png')}}" />
       </div>
     </div>
   </div>
@@ -91,7 +91,7 @@
         <article class="overflow-hidden rounded-lg shadow-lg  text-gray-800">
           <img alt="Tulis"
             class="block h-auto w-full lg:w-28 mx-auto my-10 transform transition hover:scale-125 duration-300 ease-in-out"
-            src="{{ asset('img/tulis.svg')}}" />
+            src="{{ asset('img/tulis.png')}}" />
           <header class="leading-tight p-2 md:p-4 text-center ">
             <h1 class="text-lg font-bold">1. Tulis Laporan</h1>
             <p class="text-grey-darker text-sm py-4">
@@ -108,7 +108,7 @@
         <article class="overflow-hidden rounded-lg shadow-lg text-gray-800">
           <img alt="Proses"
             class="block h-auto w-full lg:w-28 mx-auto my-10 transform transition hover:scale-125 duration-300 ease-in-out"
-            src="{{ asset('img/processing.svg')}}" />
+            src="{{ asset('img/processing.png')}}" />
           <header class="leading-tight p-2 md:p-4 text-center">
             <h1 class="text-lg font-bold">2. Proses Verifikasi</h1>
             <p class="text-grey-darker text-sm py-4">
@@ -125,7 +125,7 @@
         <article class="overflow-hidden rounded-lg shadow-lg  text-gray-800">
           <img alt="Ditindak"
             class="block h-auto w-full lg:w-28 mx-auto my-10 transform transition hover:scale-125 duration-300 ease-in-out"
-            src="{{ asset('img/act.svg')}}" />
+            src="{{ asset('img/act.jpg')}}" />
           <header class="leading-tight p-2 md:p-4 text-center">
             <h1 class="text-lg font-bold">3. Tindak Lanjut</h1>
             <p class="text-grey-darker text-sm py-4">
@@ -142,7 +142,7 @@
         <article class="overflow-hidden rounded-lg shadow-lg  text-gray-800">
           <img alt="Selesai"
             class="block h-auto w-full lg:w-28 mx-auto my-10 transform transition hover:scale-125 duration-300 ease-in-out"
-            src="{{ asset('img/verification.svg')}}" />
+            src="{{ asset('img/verification.jpg')}}" />
           <header class="leading-tight p-2 md:p-4 text-center">
             <h1 class="text-lg font-bold">4. Selesai</h1>
             <p class="text-grey-darker text-sm py-4">

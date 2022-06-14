@@ -16,10 +16,12 @@ class UserSeeder extends Seeder
     public function run()
     {
         User::create([
+            'nik' =>"20123456780",
             'name' => "SuperAdmin",
             'email' => "superadmin@gmail.com",
             'password' => Hash::make('password'),
             'email_verified_at' => now(),
+            'level'=>"admin"
         ]);
         User::create([
             'name' => "user",

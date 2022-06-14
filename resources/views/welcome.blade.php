@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PENGKAT |PWL Projek</title>
+  <title>ADUKAN |PWL Projek</title>
 
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   <link rel="icon" href="{{ asset('img/favicon.svg')}}">
@@ -22,7 +22,7 @@
       <img src="{{ asset('img/logo.svg')}}" alt=""
         class="transform transition hover:scale-125 duration-300 ease-in-out" />
       <span class="font-bold tracking-wider text-xl">
-        &nbsp E-PENGKAT</span>
+        &nbsp ADUKAN</span>
     </div>
     <div class="block lg:hidden">
       <button

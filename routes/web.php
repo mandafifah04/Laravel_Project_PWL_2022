@@ -75,3 +75,9 @@ Route::group(['middleware' => ['auth','verified']], function () {
 });
 
 
+// Admin/Petugas
+Route::prefix('admin')
+    ->middleware(['auth', 'admin'])
+    ->group(function() {
+        Route::resource('pengaduans', 'PengaduanController');
+});
